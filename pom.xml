@@ -138,7 +138,6 @@
     <module>buildingtools</module>
     <module>camel-core</module>
     <module>components</module>
-    <module>components-starter</module>
     <module>tooling</module>
     <module>platforms</module>
     <module>tests</module>
@@ -160,7 +159,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
-          <version>1.4</version>
+          <version>1.4.1</version>
           <executions>
             <execution>
               <id>enforce-maven</id>
@@ -244,6 +243,9 @@
                 <exclude>**/src/main/resources/META-INF/cxf/bus-extensions.txt</exclude>
                 <!-- ignore the api signatures files -->
                 <exclude>**/src/signatures/*.txt</exclude>
+                <!-- camel-salesforce BSD license from salesforce developers -->
+                <exclude>**/CometDReplayExtension.java</exclude>
+                <exclude>**/LICENSE-SALESFORCE.txt</exclude>
                 <!-- camel website and user-manual -->
                 <exclude>**/node/**</exclude>
                 <exclude>**/node_modules/**</exclude>
@@ -268,6 +270,7 @@
                 <exclude>**/Dropbox_API_Terms_and_Conditions.txt</exclude>
                 <exclude>**/MerchandiseRestResource.apxc</exclude>
                 <exclude>**/file-sig-api.txt</exclude>
+                <exclude>**/Tasks__c.java</exclude>
               </excludes>
             </configuration>
           </plugin>

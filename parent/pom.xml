@@ -97,14 +97,14 @@
     <cdi-api-1.2-version>1.2</cdi-api-1.2-version>
     <cglib-bundle-version>3.2.2_1</cglib-bundle-version>
     <cglib-version>3.2.2</cglib-version>
-    <chronicle-bytes-version>1.7.4</chronicle-bytes-version>
+    <chronicle-bytes-version>1.7.6</chronicle-bytes-version>
     <chronicle-core-version>1.7.3</chronicle-core-version>
     <chronicle-engine-version>1.13.6</chronicle-engine-version>
     <chronicle-map-version>2.4.15</chronicle-map-version>
     <chronicle-network-version>1.7.1</chronicle-network-version>
     <chronicle-queue-version>4.5.5</chronicle-queue-version>
     <chronicle-threads-version>1.7.2</chronicle-threads-version>
-    <chronicle-wire-version>1.7.5</chronicle-wire-version>
+    <chronicle-wire-version>1.7.6</chronicle-wire-version>
     <chunk-templates-version>3.2.0</chunk-templates-version>
     <chunk-templates-bundle-version>3.2.0_1</chunk-templates-bundle-version>
     <classmate-version>1.3.1</classmate-version>
@@ -175,7 +175,7 @@
     <el-api-1.0-version>1.0.1</el-api-1.0-version>
     <!-- embedmongo 1.50.2 do not work -->
     <embedmongo-version>1.50.1</embedmongo-version>
-    <etcd4j-version>2.11.0</etcd4j-version>
+    <etcd4j-version>2.12.0</etcd4j-version>
     <exec-maven-plugin-version>1.5.0</exec-maven-plugin-version>
     <ezmorph-bundle-version>1.0.6_1</ezmorph-bundle-version>
     <facebook4j-core-version>2.4.4</facebook4j-core-version>
@@ -298,13 +298,13 @@
     <javax-inject-bundle-version>1_2</javax-inject-bundle-version>
     <javax-mail-version>1.5.5</javax-mail-version>
     <javax.servlet-api-version>3.1.0</javax.servlet-api-version>
-    <jaxb-bundle-version>2.2.6_1</jaxb-bundle-version>
+    <jaxb-bundle-version>2.2.11_1</jaxb-bundle-version>
     <jaxen-version>1.1.6</jaxen-version>
     <jbpm-version>6.4.0.Final</jbpm-version>
     <jboss-javaee-6-version>1.0.0.Final</jboss-javaee-6-version>
     <jboss-logging-version>3.3.0.Final</jboss-logging-version>
     <jboss-marshalling-version>1.4.10.Final</jboss-marshalling-version>
-    <jboss-xnio-version>3.3.7.Final</jboss-xnio-version>
+    <jboss-xnio-version>3.4.0.Final</jboss-xnio-version>
     <jcache-bundle-version>1.0.0_1</jcache-bundle-version>
     <jclouds-version>1.9.2</jclouds-version>
     <!-- jclouds must use this guava version -->
@@ -353,7 +353,7 @@
     <json-path-version>2.1.0</json-path-version>
     <json-simple-version>1.1.1</json-simple-version>
     <json-smart-version>2.2.1</json-smart-version>
-    <jsoup-version>1.9.1</jsoup-version>
+    <jsoup-version>1.9.2</jsoup-version>
     <jsp-api-2.1-version>1.0.1</jsp-api-2.1-version>
     <jsr311-api-version>1.1.1</jsr311-api-version>
     <jt400-version>9.0</jt400-version>
@@ -373,7 +373,7 @@
     <karaf4-version>4.0.5</karaf4-version>
     <kie-version>6.4.0.Final</kie-version>
     <krati-version>0.4.9</krati-version>
-    <kubernetes-client-version>1.3.102</kubernetes-client-version>
+    <kubernetes-client-version>1.3.104</kubernetes-client-version>
     <kubernetes-model-version>1.0.52</kubernetes-model-version>
     <kxml2-bundle-version>2.3.0_3</kxml2-bundle-version>
     <leveldbjni-version>1.8</leveldbjni-version>
@@ -390,7 +390,7 @@
     <lucene-version>5.5.0</lucene-version>
     <lucene-version-range>[5,6)</lucene-version-range>
     <lightcouch-version>0.1.8</lightcouch-version>
-    <lightcouch-gson-version>2.3.1</lightcouch-gson-version>
+    <lightcouch-gson-version>2.4</lightcouch-gson-version>
     <lightcouch-bundle-version>0.1.8_2</lightcouch-bundle-version>
     <!-- needed from tooling/archetypes -->
     <!-- use antrun 1.6 as 1.7 fails with finding tools.jar on java on some platforms -->
@@ -398,8 +398,7 @@
     <maven-archetype-plugin-version>2.0</maven-archetype-plugin-version>
     <maven-archetype-packaging-version>2.0</maven-archetype-packaging-version>
     <maven-bundle-version>${maven-bundle-plugin-version}</maven-bundle-version>
-    <!-- Staying in 2.x because 3.x causes trouble. -->
-    <maven-bundle-plugin-version>3.0.1</maven-bundle-plugin-version>
+    <maven-bundle-plugin-version>3.2.0</maven-bundle-plugin-version>
     <maven-checkstyle-plugin-version>2.17</maven-checkstyle-plugin-version>
     <!-- AtomicException.java causes a problem with Checksyle > 6.6 due to 
         https://github.com/checkstyle/checkstyle/issues/1903
@@ -456,7 +455,7 @@
     <openhft-lang-version>6.8.2</openhft-lang-version>
     <openjpa-version>2.4.1</openjpa-version>
     <openshift-java-client-version>2.7.0.Final</openshift-java-client-version>
-    <openshift-client-version>1.3.102</openshift-client-version>
+    <openshift-client-version>1.3.104</openshift-client-version>
     <optaplanner-version>6.4.0.Final</optaplanner-version>
     <oro-bundle-version>2.0.8_6</oro-bundle-version>
     <oscache-bundle-version>2.4_5</oscache-bundle-version>
@@ -473,7 +472,7 @@
     <protobuf-version>2.6.1</protobuf-version>
     <qpid-bundle-version>0.28_1</qpid-bundle-version>
     <qpid-version>0.28</qpid-version>
-    <qpid-proton-j-version>0.13.0</qpid-proton-j-version>
+    <qpid-proton-j-version>0.13.1</qpid-proton-j-version>
     <qpid-jms-client-version>0.10.0</qpid-jms-client-version>
     <quartz-bundle-version>1.8.6_1</quartz-bundle-version>
     <quartz-version>1.8.6</quartz-version>
@@ -488,7 +487,7 @@
     <restlet-jackson-version>2.4.4</restlet-jackson-version>
     <restlet-woodstox-version>4.3.0</restlet-woodstox-version>
     <restlet-yaml-version>1.13</restlet-yaml-version>
-    <restlet-gson-version>2.3.1</restlet-gson-version>
+    <restlet-gson-version>2.4</restlet-gson-version>
     <restlet-joda-time-version>2.3</restlet-joda-time-version>
     <rhino-bundle-version>1.7R2_3</rhino-bundle-version>
     <rhino-version>1.7R2</rhino-version>
@@ -512,7 +511,7 @@
     <servicemix-specs-version>2.7.0</servicemix-specs-version>
     <servlet-api-3.0-version>1.0</servlet-api-3.0-version>
     <servlet-version-range>[3,4)</servlet-version-range>
-    <shiro-version>1.2.6</shiro-version>
+    <shiro-version>1.3.0</shiro-version>
     <shrinkwrap-descriptors-version>2.0.0-alpha-8</shrinkwrap-descriptors-version>
     <shrinkwrap-resolver-version>2.2.2</shrinkwrap-resolver-version>
     <shrinkwrap-version>1.2.3</shrinkwrap-version>
@@ -582,7 +581,7 @@
     <tinybundles-version>2.1.1</tinybundles-version>
     <twitter4j-bundle-version>4.0.4_1</twitter4j-bundle-version>
     <twitter4j-version>4.0.4</twitter4j-version>
-    <undertow-version>1.3.23.Final</undertow-version>
+    <undertow-version>1.3.24.Final</undertow-version>
     <univocity-parsers-version>2.2.0</univocity-parsers-version>
     <unix-socket-factory-version>2015-01-27T15-02-14</unix-socket-factory-version>
     <unix-socket-factory-bundle-version>1.0.0</unix-socket-factory-bundle-version>
